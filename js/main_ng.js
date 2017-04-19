@@ -3,8 +3,8 @@ var myapp = angular.module("app",['ngAnimate']);
 myapp.controller("Shangxin",function($scope,$interval,$timeout){
 
     $scope.status = 0;
-    $scope.map_back_url = "images/mapdots1.png";
-    $scope.count = -1/4;
+    $scope.map_back_url = "images/mapdots0.png";
+    $scope.count = 0;
 
     $scope.startAnimation = function(){
         $scope.Timer = $interval(function () {
