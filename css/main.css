@@ -281,9 +281,6 @@ p.small {
      bottom: -10px; 
    }
    
-   
-
-
 /* =========================
    section: feature-image
    ========================== */
@@ -627,10 +624,10 @@ p.small {
      comm -> head
     ============== */
  .head {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     background-size: cover;
-    background-image: url("http://media1.popsugar-assets.com/files/2012/05/21/4/192/1922153/51e0be0cd2319257_Cannes-Liu-Wen-Amour/i/Liu-Wen-Amour-Premiere.jpg");
+    background-color: #ff693f;
     display: block;
     position: absolute;
     left: 0;
@@ -638,10 +635,29 @@ p.small {
     margin: auto;
     top: 150px;
     border-radius: 100px;
-    border: 2px solid #F3F3F3;
+    border: 2px solid #fcfcfc;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
    }
+   
+.head.user1 {
+	background-image: url('../images/user1.png');
+}
+.head.user2 {
+	background-image: url('../images/user2.png');
+} 
+.head.user3 {
+	background-image: url('../images/user3.png');
+} 
+.head.user4 {
+	background-image: url('../images/user4.png');
+} 
+.head.user5 {
+	background-image: url('../images/user5.png');
+} 
+.head.user6 {
+	background-image: url('../images/user6.png');
+}    
 
 /* =========================
    section: team
