@@ -1016,7 +1016,11 @@ p.small {
 		}
 		
 		.contact .content {
-			padding: 0 20px;
+			padding: 0;
+		}
+		
+		.col-1 {
+			margin-bottom: 20px;
 		}
 		
 		.capital .container{
@@ -1052,6 +1056,9 @@ p.small {
 			align-items: center;
 			
 		}
+		.data ul li{
+			width: 70%;
+		}
 		#service {
 			padding-bottom: 30px;
 		}
@@ -1072,6 +1079,7 @@ p.small {
 			justify-content: center;
 			align-content: center;
 			text-align: center;
+			margin-top: -30px;
 		}
 		.btn-wrapper {
 			width: 100%;
