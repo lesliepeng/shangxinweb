@@ -7,6 +7,10 @@ $( document ).ready(function() {
         $('body,html').animate({
             scrollTop: scrollPoint
         }, 500);
+        
+        
+        $('nav ul').toggleClass('menu-open');
+       
     
         return false;
     
@@ -31,5 +35,9 @@ $( document ).ready(function() {
         }
     
     }).scroll();
+    
+    $('.handle').on('click',function(){
+    	$('nav ul').toggleClass('menu-open');
+    });
 });
 
