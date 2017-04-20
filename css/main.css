@@ -499,7 +499,7 @@ p.small {
    }
 
    .map {
-     background: url('../images/mapdots01.png') no-repeat left center;
+     background: url('../images/mapdots0.png') no-repeat left center;
    }
 
   .comment {
@@ -765,6 +765,7 @@ p.small {
    footer p {
     line-height: 88px;
     color: #C6C6C6;
+    margin-bottom: 0;
    }
 
 
@@ -877,13 +878,43 @@ p.small {
    Modify as content requires.
    ========================================================================== */
    @media only screen and (max-width: 1200px) {
-
+      .container {
+      	width: 100%;
+      	padding: 0 20px;
+      }
    }
    @media only screen and (max-width: 980px) {
-
+		.client .content {
+		 display: -webkit-box;
+		 display: -ms-flexbox;
+		 display: flex;
+		 flex-direction: column;
+		 justify-content: center;
+		}
+		
+		.data {
+			height: 80px;
+			margin: 50px 0 0 0;
+		}
+		.data ul {
+		 height: 100%;
+		 display: -webkit-box;
+		 display: -ms-flexbox;
+		 display: flex;
+		     -ms-flex-direction: row;
+		         flex-direction: row;
+		 -ms-flex-pack: distribute;
+		     justify-content: space-around;
+		}
+		.map {
+			margin: 0 auto;
+		}
+		
    }
    @media only screen and (max-width: 736px) {
-
+      .map {
+      	display: none;
+      }
    }
    @media only screen and (max-width: 414px) {
 
